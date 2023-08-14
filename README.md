@@ -8,4 +8,4 @@
 
 ## Screenshots
 
-![Screenshot](https://github.com/Ishita1604/CodeBud/blob/screenshot.png)
+![Screenshot](https://github.com/Ishita1604/CodeBud/assets/112006649/bd079151-a73d-424c-b227-63079dc4863c)
