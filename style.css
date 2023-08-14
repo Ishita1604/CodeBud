@@ -1,249 +1,208 @@
 body {
-  zoom: 90%;
+    zoom: 90%;
 }
 
 * {
-  font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 table {
-
-  /* margin: 0 auto;
-    font-size: large;
-    border: 1px solid black;
+    background: #053b50;
+    border-radius: 0.25em;
     border-collapse: collapse;
-    margin: 25px 0;
-    font-size: 0.9em;
-    min-width: 400px;
-    border-radius: 5px 5px 0 0;
-    overflow: hidden;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); */
-  background: #053b50;
-  border-radius: 0.25em;
-  border-collapse: collapse;
-  margin: 2em;
-  border-collapse: separate;
-  border-spacing: 0 10px;
-  border: 2px rgb(97, 10, 119) dotted;
-  border-radius: 10px;
-  width: 90%;
-  align-content: center;
-  margin-left: 70px;
+    border-spacing: 0 10px;
+    border: 2px rgb(97, 10, 119) dotted;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px;
 }
 
 
 tr {
-  border-collapse: separate;
-  border-spacing: 0 15px;
-  border: 2px red solid;
-  border-radius: 10px;
+    border-collapse: separate;
+    border-spacing: 0 15px;
+    border: 2px red solid;
+    border-radius: 10px;
 }
 
 .heading {
-  text-align: center;
-  color: #ffffff;
-  font-size: 78px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: bold;
-  margin-top: 40px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 78px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-top: 40px;
 }
 
 .subheading {
-  color: #f8f0f0;
-  text-align: center;
-  font-size: 16px; /* Adjust the font size as needed */
-  font-family: 'Poppins', sans-serif;
-  margin-top: 20px; /* Add some top margin for spacing */
+    color: #f8f0f0;
+    text-align: center;
+    font-size: 16px;
+    /* Adjust the font size as needed */
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+    /* Add some top margin for spacing */
 }
 
 .logo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .logo img {
-  width: 60px; /* Adjust the size of the logo as needed */
-  height: auto;
-  margin-right: 10px; /* Add spacing between the logo and text */
+    width: 60px;
+    /* Adjust the size of the logo as needed */
+    height: auto;
+    margin-right: 10px;
+    /* Add spacing between the logo and text */
 }
 
 .logo h1 {
-  font-size: 35px; /* Adjust the font size as needed */
-  font-weight: bold;
-  color:azure;
-  font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    /* Adjust the font size as needed */
+    font-weight: bold;
+    color: azure;
+    font-family: 'Poppins', sans-serif;
 }
 
 .logo p {
-  font-size: 16px; /* Adjust the font size as needed */
-  color: #f8f0f0;
-  font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    /* Adjust the font size as needed */
+    color: #f8f0f0;
+    font-family: 'Poppins', sans-serif;
 }
 
-
 .ongoingcontestheader {
-  /* background-color: rgb(32, 33, 36); */
-  display: flex;
-  justify-content: center;
-  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
-  color: rgb(242, 234, 244);
-  font-family: 'Helvetica Neue', sans-serif;
-  font-size: 70px;
-  font-weight: bold;
-  letter-spacing: -1px;
-  line-height: 1;
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
+    /* background-color: rgb(32, 33, 36); */
+    display: flex;
+    justify-content: center;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    color: rgb(242, 234, 244);
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
 }
 
 .upcomingcontestheader {
-  /* background-color: rgb(32, 33, 36); */
-  display: flex;
-  justify-content: center;
-  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    /* background-color: rgb(32, 33, 36); */
+    display: flex;
+    justify-content: center;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
 }
 
 td {
-  /* background-color: #E4F5D4;
-    border: 1px solid black; */
-  color: rgb(255, 255, 255);
-  font-weight: 400;
-  padding: 0.65em 1em;
+    /* background-color: #E4F5D4;
+  border: 1px solid black; */
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    padding: 0.65em 1em;
 
 }
 
 th,
 td {
-  /* font-weight: bold;
-    border: 1px solid black;
-    padding: 10px;
-    text-align: center; */
-  border-bottom: 3px solid #390745;
-  color: #151003;
-  font-size: 1em;
-  font-weight: 600;
-  padding: 1.6em 1em;
-  text-align: left;
+    border-bottom: 3px solid #390745;
+    color: #151003;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 1.6em 1em;
+    text-align: left;
 }
 
 td {
-  /* font-weight: lighter; */
-  color: rgb(255, 255, 254);
-  font-weight: 400;
-  padding: 0.65em 1em;
-  border-collapse: separate;
-  border-spacing: 0 15px;
+    /* font-weight: lighter; */
+    color: rgb(255, 255, 254);
+    font-weight: 400;
+    padding: 0.65em 1em;
+    border-collapse: separate;
+    border-spacing: 0 15px;
 }
 
 body {
-  background: #012B39;
-  /* #105469 */
-  font-family: 'Open Sans', sans-serif;
-  /* background-image: url('potentialll.jpg'); */
+    background: #012B39;
+    /* #105469 */
+    font-family: 'Open Sans', sans-serif;
+    /* background-image: url('potentialll.jpg'); */
 
 }
 
 .Tbuttons {
-  padding: 10px 15px;
-  background-color: rgba(8, 136, 169, 1);
-  min-width: 100px;
-  color: black;
-  font-weight: bold;
-  font-size: medium;
-  border: none;
-  border-radius: 50px;
-  cursor: pointer;
-  transition: all 0.3s ease 0s;
+    padding: 10px 15px;
+    background-color: rgba(8, 136, 169, 1);
+    min-width: 100px;
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    display: block;
+    margin: 0 auto;
+    /* Center align */
 }
 
 .Tbuttons:hover {
-  background-color: rgba(0, 136, 169, 0.8);
+    background-color: rgba(0, 136, 169, 0.8);
 }
 
 tbody {
-  border-collapse: separate;
-  border-spacing: 0 35px;
-  border: 2px rgb(97, 10, 119) dotted;
-  border-radius: 10px;
+    border-collapse: separate;
+    border-spacing: 0 35px;
+    border: 2px #012B39;
+    border-radius: 10px;
 }
 
 tr:nth-child(even) {
-  background-color: #012B39;
+    background-color: #012B39;
 }
 
-/* tr:nth-child(odd) {
-    background-color: #012B31;
-}  */
 .row {
-  background-color: #012B39;
-  border-radius: 50px;
+    background-color: #012B39;
+    border-radius: 50px;
 
 }
 
 .row:hover {
-  background-color: #011d27;
+    background-color: #011d27;
 }
 
-/* title {
- color: rgb(97, 10, 119);
+/* Title {
+color: rgb(97, 10, 119);
 } */
 a:link {
-  color: rgb(232, 231, 220);
+    color: rgb(232, 231, 220);
 }
 
-/* visited link */
+/* Visited link */
 a:visited {
-  color: rgb(249, 248, 243);
+    color: rgb(249, 248, 243);
 }
 
-/* mouse over link */
+/* Mouse over link */
 a:hover {
-  color: rgb(235, 228, 161);
+    color: rgb(235, 228, 161);
 }
 
-/* selected link */
+/* Selected link */
 a:active {
-  color: blue;
+    color: blue;
 }
 
 .start {
-  color: rgb(143, 228, 51);
-  background-color: rgb(1, 17, 20);
+    color: rgb(143, 228, 51);
+    background-color: rgb(1, 17, 20);
 }
 
 .end {
-  color: red;
-  background-color: rgb(1, 17, 20);
-}
-
-.navbar {
-  text-align: center;
-  /* Add this line */
-  font-size: large;
-  background-color: #011d27;
-  border-radius: 15px;
-  border: 2px rgb(97, 10, 119) dotted;
-  margin: 30px 70px;
-}
-
-.navbar li {
-  display: inline-block;
-  /* Change 'float' to 'display' */
-  list-style: none;
-  margin: 20px 10px;
-}
-
-.navbar ul {
-  overflow: auto;
-  margin: 0;
-  padding: 0;
-}
-
-.navbar li a {
-  padding: 12px 3px;
-  text-decoration: none;
-  color: white;
+    color: red;
+    background-color: rgb(1, 17, 20);
 }
