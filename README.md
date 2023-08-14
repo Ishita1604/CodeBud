@@ -6,3 +6,6 @@
 ![Logo](https://github.com/Ishita1604/CodeBud/blob/main/logo.png)
 
 
+## Screenshots
+
+![Screenshot](https://github.com/Ishita1604/CodeBud/blob/main/screenshot.png)
